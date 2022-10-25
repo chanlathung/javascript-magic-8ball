@@ -22,10 +22,12 @@
 
 
 .content {
+    /* background-color: aliceblue; */
     width: 400px;
     text-align: center;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 130px;
+    padding: 20px;
 }
 
 .title {
@@ -35,13 +37,12 @@
 }
 
 .large-button {
-    text-align: center;
     font-size: 64px;
     width: 260px;
     height: 90px;
-    color: #ffffff;;
+    color: #ffffff;
     background-color: #111111;
     border-radius: 100px;
     margin: auto;
-    margin-top: 25px;
+    padding-bottom: 90px;
 }
