@@ -22,7 +22,7 @@
 
 
 .content {
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     width: 400px;
     text-align: center;
     margin: auto;
@@ -45,4 +45,14 @@
     border-radius: 100px;
     margin: auto;
     padding-bottom: 90px;
+}
+
+#ellipse {
+    width: 350px;
+    height: 350px;
+    left: 22px;
+    top: 168px;
+
+    /* background-color: #111111; */
+    background: linear-gradient(359.58deg, #111111 0.36%, #111111 89.29%, #FFFFFF 89.3%);
 }
