@@ -38,17 +38,21 @@
       <br>
       ANYTHING...
       </h1>
-      <textarea id="text" style="margin-bottom: 10px;" name="" id="" cols="35" rows="3"></textarea>
-      <div id="generated_image"></div>
+      <textarea id="text" style="margin-bottom: 10px;" name="" id="" cols="35" rows="4"></textarea>
+      <img style="padding-bottom: 15px;" src="./IMG/image1.jpg" id="image" width="300px" height="300px" class="img-fluid" hidden>
+      
       <button id="submit_question" onclick="getRandomImage()" type="button" class="large_button">SUBMIT</button>
+      
+      <button id="try_again" onclick="getRandomImage()" type="button" class="large_button" hidden>TRY AGAIN</button>
+
     </div>
   
-    <div id="eight_ball" class="image_content" hidden>
+    <!-- <div id="eight_ball" class="image_content" hidden>
       <div>
         <img src="./IMG/image1.jpg" id="image" width="400px" height="400px" class="img-fluid" alt="">
         <button id="ask_again" onclick="getRandomImage()" type="button" class="large_button">ASK AGAIN</button>
       </div>
-    </div>
+    </div> -->
     
     
     

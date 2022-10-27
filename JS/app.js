@@ -10,13 +10,13 @@ document.getElementById("play")
 
 document.getElementById("submit_question")
         .addEventListener("click", () => {
-  document.getElementById("ask").hidden = true;
-  document.getElementById("eight_ball").hidden = false;
+  document.getElementById("submit_question").hidden = true;
+  document.getElementById("try_again").hidden = false;
+  document.getElementById("text").hidden = false;
+  document.getElementById("image").hidden = false;
 }, false);
 
 const arrayOfImages = ["IMG/image1.jpg", "IMG/image2.jpg", "IMG/image3.jpg", "IMG/image4.jpg", "IMG/image5.jpg", "IMG/image6.jpg", "IMG/image7.jpg", "IMG/image8.jpg"];
-
-let selectedImage = "";
 
 function getRandomImage() {
   // Get a random index
