@@ -30,7 +30,7 @@
       <br>  
         TRUTHY?
       </h1>
-      <button id="play" type="button" class="largeButton">PLAY</button>
+      <button id="play" type="button" class="large_button">PLAY</button>
     </div>
     
     <div id="ask" class="content" hidden>
@@ -39,11 +39,15 @@
       ANYTHING...
       </h1>
       <textarea id="text" style="margin-bottom: 10px;" name="" id="" cols="35" rows="3"></textarea>
-      <button id="submitQuestion" onclick="getRandomImage()" type="button" class="largeButton">SUBMIT</button>
+      <div id="generated_image"></div>
+      <button id="submit_question" onclick="getRandomImage()" type="button" class="large_button">SUBMIT</button>
     </div>
   
-    <div id="eightBall" class="content">
-      <img src="./IMG/image1.jpg" id="image" width="400px" height="400px" class="img-fluid" alt="">
+    <div id="eight_ball" class="image_content" hidden>
+      <div>
+        <img src="./IMG/image1.jpg" id="image" width="400px" height="400px" class="img-fluid" alt="">
+        <button id="ask_again" onclick="getRandomImage()" type="button" class="large_button">ASK AGAIN</button>
+      </div>
     </div>
     
     
